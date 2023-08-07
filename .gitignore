@@ -1,60 +1,33 @@
-build/
-app/build/
-app/release
-app/src/main/libs/
-app/src/main/obj/
-lsp/
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 local.properties
 
-
-# Stolen from: https://github.com/google/iosched/blob/master/.gitignore and http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project
-# build native files
+lsp/
 *.o
 *.so
-
-# built application files
 *.apk
 *.ap_
-
-# files for the dex VM
 *.dex
-
-# Java class files
 *.class
-
-# generated files
 bin/
 gen/
 out/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
 .classpath
 .project
-
-# Windows thumbnail db
-.DS_Store
-
-# IDEA/Android Studio project files, because
-# the project can be imported from settings.gradle
 .idea
-*.iml
-
-# Old-style IDEA project files
 *.ipr
 *.iws
 
-# Local IDEA workspace
-.idea/workspace.xml
-
-# Gradle cache
-.gradle
-
-# Sandbox stuff
 _sandbox
-app/.externalNativeBuild 
-app/.cxx/
-app/defaultConfig/

@@ -325,7 +325,7 @@ public class Server extends Service implements CallbackHandler {
                 this,
                 0,
                 resultIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT
+                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
         );
 
         Notification.Builder builder = null;

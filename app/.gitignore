@@ -1,0 +1,7 @@
+/build
+/release
+/src/main/libs/
+/src/main/obj/
+/.externalNativeBuild
+/.cxx
+/defaultConfig
