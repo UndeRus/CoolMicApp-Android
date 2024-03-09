@@ -1,12 +1,12 @@
 [submodule "app/src/main/jni/libshout/libshout"]
 	path = app/src/main/jni/libshout-android-build-wrapper/libshout
-	url = ../icecast-libshout.git
+	url = https://github.com/CoolMicApp/icecast-libshout.git
 [submodule "app/src/main/jni/libigloo-android-build-wrapper/libigloo"]
 	path = app/src/main/jni/libigloo-android-build-wrapper/libigloo
-	url = ../icecast-common.git	
+	url = https://github.com/CoolMicApp/icecast-common.git
 [submodule "app/src/main/jni/libcoolmic-dsp/libcoolmic-dsp"]
 	path = app/src/main/jni/libcoolmic-dsp-android-build-wrapper/libcoolmic-dsp
-	url = ../libcoolmic-dsp.git
+	url = https://github.com/CoolMicApp/libcoolmic-dsp.git
 [submodule "app/src/main/jni/opus/opus"]
 	path = app/src/main/jni/opus-android-build-wrapper/opus
 	url = https://gitlab.xiph.org/xiph/opus.git
